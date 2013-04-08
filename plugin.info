@@ -1,0 +1,7 @@
+plugin.description: Cakebox plugin
+plugin.author: Magicalex
+plugin.runlevel: 11
+plugin.version: 0.50
+rtorrent.remote: error
+need_rtorrent: 0
+plugin.help: http://mondedie.fr/forum/8-tutos/3186-plugin-creer-un-lien-vers-cakebox-dans-rutorrent#3993
