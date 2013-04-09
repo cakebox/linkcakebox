@@ -64,5 +64,6 @@ if(plugin.canChangeMenu())
 
 plugin.onRemove = function()
 {
+  this.removeSeparatorFromToolbar("linkcakebox");
   this.removeButtonFromToolbar("linkcakebox");
 }
