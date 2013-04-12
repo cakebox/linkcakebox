@@ -26,7 +26,7 @@ $onglet = true; //ou false
 + La variable **$dirpath** correspond au paramètre directory=/home/exemple/ de votre rtorrent.rc.
 + La variable **$onglet** est une option pour choisir d'ouvrir cakebox dans un autre onglet ou pas, true pour ouvrir un autre onglet et false pour ne pas ouvrir un autre onglet.
 
-**Note :** la variable $user récupère le nom du user azuthantifier au serveur web,
+**Note :** la variable $user récupère le nom de l'utilisateur authentifié au serveur web,
 et la variable $host récupère le hostname de votre barre d'adresse.
 
 Auteur : Magicalex
