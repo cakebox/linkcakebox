@@ -6,7 +6,7 @@ Ouvrez un terminal ssh sur votre serveur en root *(Attention git doit être inst
 ```
 cd /var/www/rutorrent/plugins
 git clone git://github.com/Magicalex/rutorrent-linkcakebox.git linkcakebox
-chown -R www-data:www-data /var/www/rutorrent/plugins/linkcakebox
+chown -R www-data:www-data linkcakebox/
 ```
 ##Configuration
 Par défaut la config est adapté au script de mardambey, pour ceux qui ont une autre configuration éditez le fichier conf.php
