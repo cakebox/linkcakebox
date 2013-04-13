@@ -49,7 +49,7 @@ if(plugin.canChangeMenu())
                         var arr = fid.split('_f_');
                         fno = arr[1];
                     }
-                    
+                    else
                     if(!this.dirs[this.dID].isDirectory(fid))
                     {
                         fno = fid.substr(3);
