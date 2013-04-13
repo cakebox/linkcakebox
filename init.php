@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $user = getUser();
 $host = $_SERVER['HTTP_HOST'];

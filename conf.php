@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /* Note : Vous pouvez utiliser la variable $user pour récupérer votre nom d'utilisateur
           Vous pouvez utiliser la variable $host pour récupérer votre ip ou nom de domaine
 

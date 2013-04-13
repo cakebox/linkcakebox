@@ -1,4 +1,4 @@
-﻿plugin.loadLang();
+plugin.loadLang();
 if (theWebUI.theme && theWebUI.theme == 'Oblivion') {
     plugin.loadCSS("linkcakeboxoblivion");
 } else {
