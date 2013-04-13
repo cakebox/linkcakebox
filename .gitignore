@@ -4,4 +4,4 @@
 *.DS_Store
 *.swp
 ## README.md
-.git
+.git/
