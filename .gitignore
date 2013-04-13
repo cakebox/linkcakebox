@@ -3,4 +3,5 @@
 *.lock
 *.DS_Store
 *.swp
-README.md
+## README.md
+.git
