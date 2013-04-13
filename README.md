@@ -1,5 +1,4 @@
-##Description
-
+﻿##Description
 Au clic sur le bouton de la toolbar un nouvel onglet s'ouvre vers la page index de cakebox.
 Un autre lien est présent dans l'onglet "fichier" qui redirige vers la page cakebox/watch.php du fichier concerné.  
 ##Installation

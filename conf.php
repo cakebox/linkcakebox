@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /* Note : Vous pouvez utiliser la variable $user pour récupérer votre nom d'utilisateur
-          Vous pouvez utiliser la variable $host pour récupérer votre ip ou nom de domaine */
+          Vous pouvez utiliser la variable $host pour récupérer votre ip ou nom de domaine
 
-/* laissez par défaut si vous avez utilisé le script mardambey
+Laisser par défaut si vous avez utilisé le script mardambey
 Ou indiquez l'url complète ex : http://../rutorrent/cakebox/ */
 $url = 'http://'.$host.'/cakebox/';
 
