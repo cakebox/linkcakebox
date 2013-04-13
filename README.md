@@ -12,8 +12,7 @@ chown -R www-data:www-data /var/www/rutorrent/plugins/linkcakebox
 ##Configuration
 Par défaut la config est adapté au script de mardambey, pour ceux qui ont une autre configuration éditez le fichier conf.php
 ```nano /var/www/rutorrent/plugins/linkcakebox/conf.php``` 
-
-exemple d'un fichier de configuration :
+######exemple d'un fichier de configuration :
 ```php
 <?php
 $url = 'http://'.$host.'/rutorrent/cakebox/'; //force le http
