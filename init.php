@@ -6,9 +6,9 @@ $host = $_SERVER['HTTP_HOST'];
 include('conf.php');
 
 if ($onglet)
-    $optionlink = 'window.open';
+  $optionlink = 'window.open';
 else
-    $optionlink = 'window.location.replace';
+  $optionlink = 'window.location.replace';
 
 $jResult .= "plugin.url = '".$url."';";
 $jResult .= "plugin.optionlink = '".$optionlink."';";
