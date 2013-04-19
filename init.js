@@ -50,9 +50,9 @@ if(plugin.canChangeMenu())
                         fno = arr[1];
                     }
                     else
-                    if(!this.dirs[this.dID].isDirectory(fid))
                     {
-                        fno = fid.substr(3);
+                        if(!this.dirs[this.dID].isDirectory(fid))
+                          fno = fid.substr(3);
                     }
                 }
                 theContextMenu.add( [theUILang.linkcakeboxmenu, (fno==null) ? null : plugin.optionlink+"("+theWebUI.urlcakebox(theWebUI.dID, fno)+")"] );
