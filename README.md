@@ -34,7 +34,7 @@ cd /var/www/rutorrent/plugins/linkcakebox
 git reset --hard HEAD
 git clean -fd
 git pull
-chown -R www-data:www-data linkcakebox/
+chown -R www-data:www-data *
 ```
 
 Auteur : Magicalex
