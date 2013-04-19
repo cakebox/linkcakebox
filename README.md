@@ -27,4 +27,14 @@ $onglet = true; //ou false
 **Note :** la variable $user récupère le nom de l'utilisateur authentifié au serveur web,
 et la variable $host récupère le hostname de votre barre d'adresse.
 
+##Pour mettre à jour le plugin depuis le dépôt
+Uniquement pour ceux qui ont à la base installé le plugin depuis git
+```
+cd /var/www/rutorrent/plugins/linkcakebox
+git reset --hard HEAD
+git clean -fd
+git pull
+chown -R www-data:www-data linkcakebox/
+```
+
 Auteur : Magicalex
