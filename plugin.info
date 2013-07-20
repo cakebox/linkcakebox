@@ -4,4 +4,4 @@ plugin.runlevel: 11
 plugin.version: 0.52
 rtorrent.remote: error
 need_rtorrent: 0
-plugin.help: http://mondedie.fr/forum/8-tutos/3186-plugin-creer-un-lien-vers-cakebox-dans-rutorrent#3993
+plugin.help: https://github.com/Magicalex/rutorrent-linkcakebox#description
