@@ -4,4 +4,4 @@ plugin.runlevel: 11
 plugin.version: 0.52
 rtorrent.remote: error
 need_rtorrent: 0
-plugin.help: https://github.com/Magicalex/rutorrent-linkcakebox#description
+plugin.help: https://github.com/Magicalex/rutorrent-linkcakebox
