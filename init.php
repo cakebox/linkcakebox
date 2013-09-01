@@ -2,7 +2,7 @@
 
 $user = getUser();
 $host = $_SERVER['HTTP_HOST'];
-include('conf.php');
+require_once('conf.php');
 $optionlink = $onglet === true ? 'window.open':'window.location.replace';
 
 $jResult .= "plugin.url = '".$url."';";
