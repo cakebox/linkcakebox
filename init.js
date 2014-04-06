@@ -17,10 +17,10 @@ if(plugin.canChangeMenu())
 
         var base_path = this.torrents[dID].base_path;
         if (this.files[dID][fno].name != this.torrents[dID].name)
-            base_path = base_path+"/"+this.files[dID][fno].name;
+            base_path = base_path + "/" + this.files[dID][fno].name;
 
         base_path = base_path.replace(plugin.dirpath, "");
-        var cakeboxUrl = "'"+plugin.url+"watch.php?file="+bugurl(encodeURIComponent(plugin.localDlPath+base_path))+"'";
+        var cakeboxUrl = "'" + plugin.url + "#/play/" + bugurl(encodeURIComponent(base_path)) + "'";
         return cakeboxUrl;
     }
   
@@ -47,7 +47,7 @@ if(plugin.canChangeMenu())
                             fno = fid.substr(3);
                     }
                 }
-                theContextMenu.add( [theUILang.linkcakeboxmenu, (fno == null) ? null : plugin.optionlink+"("+theWebUI.urlTabcakebox(theWebUI.dID, fno)+")"] );
+                theContextMenu.add( [theUILang.linkcakeboxmenu, (fno == null) ? null : plugin.optionlink + "(" + theWebUI.urlTabcakebox(theWebUI.dID, fno) + ")"] );
             }
             return(true);
         }
@@ -69,15 +69,15 @@ if(plugin.canChangeMenu()) {
                 return url;
             }
 
-            var cakeboxUrl = "'"+plugin.url+"watch.php?file="+bugurl(encodeURIComponent(plugin.localDlPath+theWebUI.torrents[id].name))+"'";
-            theContextMenu.add( [theUILang.linkcakeboxmenu, (theWebUI.torrents[id].multi_file != 0 ) ? null : plugin.optionlink+"("+cakeboxUrl+")"] );
+            var cakeboxUrl = "'" + plugin.url + "#/play/" + bugurl(encodeURIComponent(theWebUI.torrents[id].name)) + "'";
+            theContextMenu.add( [theUILang.linkcakeboxmenu, (theWebUI.torrents[id].multi_file != 0 ) ? null : plugin.optionlink + "(" + cakeboxUrl + ")"] );
         }
     }
 }
 
 plugin.onLangLoaded = function()
 {
-    this.addButtonToToolbar("linkcakebox", theUILang.linkcakebox, plugin.optionlink+"('"+plugin.url+"')", "help");
+    this.addButtonToToolbar("linkcakebox", theUILang.linkcakebox, plugin.optionlink+"('" + plugin.url + "')", "help");
     this.addSeparatorToToolbar("help");
 }
 
