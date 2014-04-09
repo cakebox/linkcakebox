@@ -1,7 +1,7 @@
 plugin.description: Cakebox plugin
 plugin.author: Magicalex
 plugin.runlevel: 11
-plugin.version: 0.70
+plugin.version: 1.00
 rtorrent.remote: error
 need_rtorrent: 0
-plugin.help: https://github.com/Magicalex/rutorrent-linkcakebox/issues
+plugin.help: https://github.com/Cakebox/linkcakebox/issues
