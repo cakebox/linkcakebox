@@ -17,3 +17,4 @@ $dirpath = '/home/'.$user.'/torrents/';
 /* true pour ouvrir cakebox dans un autre onglet
 false pour ne pas ouvrir cakebox dans un autre onglet */
 $onglet = true;
+?>
